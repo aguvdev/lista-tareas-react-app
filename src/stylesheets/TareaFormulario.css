@@ -1,0 +1,37 @@
+@import url("../App.css");
+
+/* Estructura Principal */
+
+.tarea-formulario-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Campo de Texto */
+
+.tarea-input {
+  width: 350px;
+  font-size: 18px;
+  background-color: var(--color-blanco);
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  outline: none;
+  border: solid 2px var(--color-blanco);
+}
+
+/* Boton Agregar Tarea */
+
+.tarea-button{
+  padding: 16px;
+  font-size: 18px;
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  color: var(--color-blanco);
+  background-color: var(--color-azul);
+  text-transform: capitalize;
+}
