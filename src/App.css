@@ -1,5 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+:root{
+  --color-naranja: #FF8066;
+  --color-mostaza: #C78A33;
+  --color-verde: #828F2A;
+  --color-verdeOsc: #318A48;
+  --color-verdeAz: #007F6E;
+  --color-azul: #006E8A;
+  --color-blanco: #ffffff;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html,
+body{
+  background-color: var(--color-blanco);
+  color: var(--color-azul);
+  font-family: Lato, sans-serif;
+}
+
+.aplicacion-tareas-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Lista de tareas */
+
+.lista-tareas-principal{
+  width: 600px;
+  min-height: 500px;
+  background-color: var(--color-naranja);
+  padding: 25px;
+  margin: 10px;
+  border-radius: 26px;
+}
+
+.lista-tareas-principal > h2{
+  color: var(--color-blanco);
+  font-size: 25px;
+  text-align: center;
+  margin: 20px 0;
 }
