@@ -11,4 +11,5 @@
     color: var(--color-azul);
     text-align: center;
     padding: 20px;
+    user-select: none;
 }
