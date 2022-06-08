@@ -1,4 +1,4 @@
 # Lista de tareas
 
-[Pagina proximamente](#).
+Para ver una demo de la App, haga click [aquí.](https://lista-tareas-react-app.vercel.app/).
 
