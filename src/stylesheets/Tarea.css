@@ -13,6 +13,22 @@
   cursor: pointer;
 }
 
+/* ------- */
+/* Colores */
+/* ------- */
+
+.tarea-container:nth-child(3n + 1){
+  background-color: var(--color-verdeAz);
+}
+
+.tarea-container:nth-child(3n + 2){
+  background-color: var(--color-verdeOsc);
+}
+
+.tarea-container:nth-child(3n + 3){
+  background-color: var(--color-verde);
+}
+
 /* ----- */
 /* Texto */
 /* ----- */
